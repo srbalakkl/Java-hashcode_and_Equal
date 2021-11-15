@@ -20,5 +20,16 @@ public class HashcodeAndEqual {
 
         String Str = new String("We are learning hashCode in Java");
         System.out.println("Hashcode for Str :" + Str.hashCode() );
+        
+//         outputs
+        /*Equal variables:
+        48625
+        48625
+
+        Un-equal variables:
+        48625
+        52469
+        Hashcode for Str :2075107740
+        */
     }
 }
